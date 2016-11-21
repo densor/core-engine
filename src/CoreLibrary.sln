@@ -8,8 +8,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestThreads", "TestThreads\
 		{5D4EAE2E-D0F9-4D27-9B27-F168E9C7740D} = {5D4EAE2E-D0F9-4D27-9B27-F168E9C7740D}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{FB879BF7-CE2C-4286-9702-72469221500F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -24,10 +22,6 @@ Global
 		{97788A15-0ABA-4551-B30C-DCD8D31F04F0}.Debug|Win32.Build.0 = Debug|Win32
 		{97788A15-0ABA-4551-B30C-DCD8D31F04F0}.Release|Win32.ActiveCfg = Release|Win32
 		{97788A15-0ABA-4551-B30C-DCD8D31F04F0}.Release|Win32.Build.0 = Release|Win32
-		{FB879BF7-CE2C-4286-9702-72469221500F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{FB879BF7-CE2C-4286-9702-72469221500F}.Debug|Win32.Build.0 = Debug|Win32
-		{FB879BF7-CE2C-4286-9702-72469221500F}.Release|Win32.ActiveCfg = Release|Win32
-		{FB879BF7-CE2C-4286-9702-72469221500F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
