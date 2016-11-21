@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D4EAE2E-D0F9-4D27-9B27-F168E9C7740D}</ProjectGuid>
+    <RootNamespace>CoreLibrary</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CLComponentEnumeration.h" />
+    <ClInclude Include="CLConcurrenceManagement.h" />
+    <ClInclude Include="CLCoreMessages.h" />
+    <ClInclude Include="CLIComponent.h" />
+    <ClInclude Include="CLIComponentCreator.h" />
+    <ClInclude Include="CLIObjectPrototypePattern.h" />
+    <ClInclude Include="CLISerializerIn.h" />
+    <ClInclude Include="CLISmartResource.h" />
+    <ClInclude Include="CLITimeManager.h" />
+    <ClInclude Include="CLObjectManagerMessages.h" />
+    <ClInclude Include="CLSpaces.h" />
+    <ClInclude Include="CLIThreadTaskScheduler.h" />
+    <ClInclude Include="CLPhases.h" />
+    <ClInclude Include="ICLBaseTimeManager.h" />
+    <ClInclude Include="ICLComponentCollectionCreator.h" />
+    <ClInclude Include="ICLBaseSmartResource.h" />
+    <ClInclude Include="ICLLockingTaskScheduler.h" />
+    <ClInclude Include="ICLLockingThreadManager.h" />
+    <ClInclude Include="ICLLockingWorkerThread.h" />
+    <ClInclude Include="ICLLocklessTaskScheduler.h" />
+    <ClInclude Include="ICLLocklessThreadManager.h" />
+    <ClInclude Include="ICLLocklessWorkerThread.h" />
+    <ClInclude Include="ICLObjectPrototype.h" />
+    <ClInclude Include="CLObjectMessages.h" />
+    <ClInclude Include="CLResourceMessages.h" />
+    <ClInclude Include="CLIEngine.h" />
+    <ClInclude Include="CLIMessage.h" />
+    <ClInclude Include="CLIMessageHandler.h" />
+    <ClInclude Include="CLIMessageManager.h" />
+    <ClInclude Include="CLIResource.h" />
+    <ClInclude Include="CLIResourceReader.h" />
+    <ClInclude Include="CLIResourceWriter.h" />
+    <ClInclude Include="CLISystem.h" />
+    <ClInclude Include="CLIThreadManager.h" />
+    <ClInclude Include="CLIThreadTask.h" />
+    <ClInclude Include="CLMessageEnumeration.h" />
+    <ClInclude Include="ICLBaseCoreEngine.h" />
+    <ClInclude Include="ICLBaseFileManager.h" />
+    <ClInclude Include="ICLBaseMessageManager.h" />
+    <ClInclude Include="ICLBaseResourceManager.h" />
+    <ClInclude Include="ICLGetTime.h" />
+    <ClInclude Include="ICLComponentCollection.h" />
+    <ClInclude Include="ICLComponentFactory.h" />
+    <ClInclude Include="ICLPrototypeFactory.h" />
+    <ClInclude Include="ICLSpaceManager.h" />
+    <ClInclude Include="ICLObjectManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICLBaseCoreEngine.cpp" />
+    <ClCompile Include="ICLBaseFileManager.cpp" />
+    <ClCompile Include="ICLBaseMessageManager.cpp" />
+    <ClCompile Include="ICLBaseResourceManager.cpp" />
+    <ClCompile Include="ICLBaseSmartResource.cpp" />
+    <ClCompile Include="ICLBaseTimeManager.cpp" />
+    <ClCompile Include="ICLComponentCollection.cpp" />
+    <ClCompile Include="ICLComponentCollectionCreator.cpp" />
+    <ClCompile Include="ICLComponentFactory.cpp" />
+    <ClCompile Include="ICLConcurrenceManagement.cpp" />
+    <ClCompile Include="ICLCoreMessages.cpp" />
+    <ClCompile Include="ICLGetTime.cpp" />
+    <ClCompile Include="ICLIThreadTask.cpp" />
+    <ClCompile Include="ICLLockingTaskScheduler.cpp" />
+    <ClCompile Include="ICLLockingThreadManager.cpp" />
+    <ClCompile Include="ICLLockingWorkerThread.cpp" />
+    <ClCompile Include="ICLLocklessTaskScheduler.cpp" />
+    <ClCompile Include="ICLLocklessWorkerThread.cpp" />
+    <ClCompile Include="ICLObjectManager.cpp" />
+    <ClCompile Include="ICLObjectManagerMessages.cpp" />
+    <ClCompile Include="ICLObjectMessages.cpp" />
+    <ClCompile Include="ICLObjectPrototype.cpp" />
+    <ClCompile Include="ICLPrototypeFactory.cpp" />
+    <ClCompile Include="ICLResourceMessages.cpp" />
+    <ClCompile Include="ICLSpaceManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

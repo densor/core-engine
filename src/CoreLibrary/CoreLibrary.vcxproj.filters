@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Internal Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="External Interfaces">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Internal Files\Messaging">
+      <UniqueIdentifier>{bb87f64b-594c-4443-88e8-8b1064c16eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Core Engine">
+      <UniqueIdentifier>{e04fef10-0433-43c7-ae2b-162088988d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems">
+      <UniqueIdentifier>{529e86b2-991e-4da3-9f58-36936a3a790d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Resource Manager">
+      <UniqueIdentifier>{be602147-7aeb-4b6a-985f-19a62c424db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Thread Manager">
+      <UniqueIdentifier>{cebc9f71-01a7-4192-b55c-3d750169f2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper Functions/Classes">
+      <UniqueIdentifier>{65b25916-6137-46d5-a8fd-a7ddc7d73b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Helper Function/Classes">
+      <UniqueIdentifier>{ba0c42b3-5c0b-49b5-b2bf-03b1d1ad04ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Core Engine\Core Engine Helpers">
+      <UniqueIdentifier>{1e52c5af-41a3-478c-8905-6369e90252cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Resource Manager\Resource Manager Helpers">
+      <UniqueIdentifier>{be555c38-447b-418f-a13d-b8fd56e21cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Object Manager">
+      <UniqueIdentifier>{d1f70ed0-0d4c-4c06-8887-5fd316cb7bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Event Manager">
+      <UniqueIdentifier>{f934347b-8d99-43ca-a3fb-42c7e6cf92eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Input Manager">
+      <UniqueIdentifier>{4c561114-4c6c-4558-ab74-684e5f6b8d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Menu Manager">
+      <UniqueIdentifier>{a684ae95-9eec-4f2b-bc4e-33c26897c833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Object Manager\Object Manager Helpers">
+      <UniqueIdentifier>{5f41d924-bad4-49fa-b889-a78eeae514b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Tag Manager">
+      <UniqueIdentifier>{64a1d49b-e8e8-49f4-9f8e-c9244ba250f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Components">
+      <UniqueIdentifier>{005698ef-4143-42a2-a7a2-613373d9e958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Systems\Persistance Manager">
+      <UniqueIdentifier>{c2451d59-c721-405b-8185-02da7c8ac7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Thread Manager\Lockless Thread Manager">
+      <UniqueIdentifier>{9cc3c466-da4a-4767-a641-03c35508fd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Thread Manager\Locking Thread Manager">
+      <UniqueIdentifier>{5c7a14f5-f4ae-4ff3-bce8-b5231e040ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Files\Core Engine\Time Manager">
+      <UniqueIdentifier>{95c0ba4c-3a59-43a7-8d4b-d4ff3b79d81d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLIEngine.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLISystem.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIMessageManager.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIMessage.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseMessageManager.h">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIMessageHandler.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLMessageEnumeration.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLCoreMessages.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseCoreEngine.h">
+      <Filter>Internal Files\Core Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseFileManager.h">
+      <Filter>Internal Files\Systems\Resource Manager\Resource Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIResource.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseResourceManager.h">
+      <Filter>Internal Files\Systems\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIThreadManager.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIThreadTask.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLConcurrenceManagement.h">
+      <Filter>Helper Functions/Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIResourceReader.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIResourceWriter.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLSpaceManager.h">
+      <Filter>Internal Files\Core Engine\Core Engine Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLResourceMessages.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLGetTime.h">
+      <Filter>Internal Files\Core Engine\Core Engine Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLComponentFactory.h">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIComponent.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIComponentCreator.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLPrototypeFactory.h">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLComponentCollection.h">
+      <Filter>Internal Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CLObjectMessages.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLObjectPrototype.h">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIObjectPrototypePattern.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLISerializerIn.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLComponentEnumeration.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLocklessThreadManager.h">
+      <Filter>Internal Files\Thread Manager\Lockless Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLocklessWorkerThread.h">
+      <Filter>Internal Files\Thread Manager\Lockless Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIThreadTaskScheduler.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLocklessTaskScheduler.h">
+      <Filter>Internal Files\Thread Manager\Lockless Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLockingWorkerThread.h">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLockingTaskScheduler.h">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLLockingThreadManager.h">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CLPhases.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLSpaces.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLObjectManager.h">
+      <Filter>Internal Files\Systems\Object Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CLObjectManagerMessages.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLITimeManager.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CLISmartResource.h">
+      <Filter>External Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseSmartResource.h">
+      <Filter>Internal Files\Systems\Resource Manager\Resource Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLComponentCollectionCreator.h">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICLBaseTimeManager.h">
+      <Filter>Internal Files\Core Engine\Time Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICLBaseMessageManager.cpp">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLCoreMessages.cpp">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLBaseCoreEngine.cpp">
+      <Filter>Internal Files\Core Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLBaseFileManager.cpp">
+      <Filter>Internal Files\Systems\Resource Manager\Resource Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLConcurrenceManagement.cpp">
+      <Filter>Internal Files\Helper Function/Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLSpaceManager.cpp">
+      <Filter>Internal Files\Core Engine\Core Engine Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLBaseResourceManager.cpp">
+      <Filter>Internal Files\Systems\Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLGetTime.cpp">
+      <Filter>Internal Files\Core Engine\Core Engine Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLResourceMessages.cpp">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLComponentFactory.cpp">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLPrototypeFactory.cpp">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLObjectMessages.cpp">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLObjectPrototype.cpp">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLComponentCollection.cpp">
+      <Filter>Internal Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLIThreadTask.cpp">
+      <Filter>Internal Files\Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLLocklessWorkerThread.cpp">
+      <Filter>Internal Files\Thread Manager\Lockless Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLLocklessTaskScheduler.cpp">
+      <Filter>Internal Files\Thread Manager\Lockless Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLLockingWorkerThread.cpp">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLLockingTaskScheduler.cpp">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLLockingThreadManager.cpp">
+      <Filter>Internal Files\Thread Manager\Locking Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLObjectManager.cpp">
+      <Filter>Internal Files\Systems\Object Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLObjectManagerMessages.cpp">
+      <Filter>Internal Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLBaseSmartResource.cpp">
+      <Filter>Internal Files\Systems\Resource Manager\Resource Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLComponentCollectionCreator.cpp">
+      <Filter>Internal Files\Systems\Object Manager\Object Manager Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ICLBaseTimeManager.cpp">
+      <Filter>Internal Files\Core Engine\Time Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
