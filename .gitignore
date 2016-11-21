@@ -1,0 +1,6 @@
+src/CoreLibrary/Release/
+src/TestThreads/Release/
+src/CoreLibrary/Debug/
+src/TestThreads/Debug/
+src/CoreLibrary.opensdf
+src/CoreLibrary.sdf
